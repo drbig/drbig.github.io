@@ -11,6 +11,7 @@
 
 /* posts list */
 .posts .info {
+  color: gray;
   padding: 2px;
   padding-left: 5px;
   margin-left: -1em;
