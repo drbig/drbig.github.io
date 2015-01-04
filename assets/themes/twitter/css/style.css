@@ -9,6 +9,13 @@
 .navbar .nav {
   float: right; }
 
+/* posts list */
+.posts .info {
+  padding: 2px;
+  padding-left: 5px;
+  margin-left: -1em;
+  border-left: 1px solid #ccc; }
+
 /* posts index */
 .post > h3.title {
   position: relative;
@@ -24,8 +31,11 @@
   text-align: left; }
 
 /* post-full*/
+.post-full .info {
+  font-size: 0.9em;
+  margin-bottom: 20px; }
+
 .post-full .date {
-  margin-bottom: 20px;
   font-weight: bold; }
 
 /* tag_box */
