@@ -15,7 +15,7 @@ tagline: beware of dragons
   {% endfor %}
 </ul>
 
-Browse by: [Categories](/categories.html), [Tags](/tags.html).
+Browse by: [Categories](/categories.html), [Tags](/tags.html), [Archive](/archive.html).
 
 #### Also worth reading
 

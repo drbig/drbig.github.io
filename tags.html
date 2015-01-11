@@ -10,11 +10,13 @@ header: Posts By Tag
   {% include JB/tags_list %}
 </ul>
 
+<hr>
 
+<ul>
 {% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-    {% include JB/pages_list %}
-  </ul>
+  <li><h4 id="{{ tag[0] }}-ref">{{ tag[0] }}</h4>
+  {% assign posts_collate = tag[1] %}  
+  {% include JB/posts_collate %}
+  </li>
 {% endfor %}
+</ul>

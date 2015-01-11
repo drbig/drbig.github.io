@@ -10,12 +10,13 @@ header: Posts By Category
   {% include JB/categories_list %}
 </ul>
 
+<hr>
 
+<ul>
 {% for category in site.categories %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-  <ul>
-    {% assign pages_list = category[1] %}  
-    {% include JB/pages_list %}
-  </ul>
+<li><i><h4 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h4></i>
+  {% assign posts_collate = category[1] %}  
+  {% include JB/posts_collate %}
+  </li>
 {% endfor %}
-
+</ul>
