@@ -32,4 +32,3 @@ This site builds on the following software:
 
  - [Jekyll Bootstrap](http://jekyllbootstrap.com/) - nice balance between features and complexity
  - [Twitter Bootstrap](http://twitter.github.com/bootstrap/) - because 'blog' design is overrated
- - [Bitcons Icons](http://somerandomdude.com/work/bitcons/) - for the 'logo' image, top-left corner
